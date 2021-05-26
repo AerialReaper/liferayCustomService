@@ -1,0 +1,10 @@
+Bundle-Name: iconsApi2-api
+Bundle-SymbolicName: iconsApi2.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	iconsApi2.exception,\
+	iconsApi2.model,\
+	iconsApi2.service,\
+	iconsApi2.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../iconsApi2-service/service.xml

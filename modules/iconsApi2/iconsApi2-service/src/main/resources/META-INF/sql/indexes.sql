@@ -1,0 +1,1 @@
+create index IX_5238D0B0 on Civica_Foo (uuid_[$COLUMN_LENGTH:75$]);
